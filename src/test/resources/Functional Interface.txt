@@ -1,0 +1,7 @@
+Functional Interface are those interface, which have only one abstract method and may or may not be multiple default and static method.
+Example : 	interface Comparator<T> :  	int compare(T o1, T o2); 
+			interface Consumer<T>   : 	void accept(T t); takes input and return void
+			interface Predicate<T>  : 	boolean test(T t); takes input and return boolean
+			interface Supplier<T>	:	 T get(); takes No input but return output
+
+ 

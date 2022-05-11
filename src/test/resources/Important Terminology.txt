@@ -1,0 +1,2 @@
+Fail FAST : The Iterators returned by the Vector class are fail-fast. 
+In the case of concurrent modification, it fails and throws the ConcurrentModificationException.
